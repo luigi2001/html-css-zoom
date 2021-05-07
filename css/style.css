@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
 /*inizio header*/
 
 header{
@@ -69,4 +75,51 @@ main{
 
 /*fine main*/
 
+/*inizio footer*/
 
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .left{
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+footer .center{
+    flex-basis: auto;
+    flex-grow: 2;
+}
+
+footer .container-box{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+footer .container-box .box{
+    margin: 0 20px;
+}
+
+footer .container-box .box .icon{
+    text-align: center;
+    font-size: 25px;
+}
+
+footer .container-box .rosso{
+    display: flex;
+    color: red;
+    background-color: gray;
+    height: 100%;
+    align-items: center;
+}
+
+footer .container-box .box .special{
+    color: green;
+}
+
+/*fine footer*/
