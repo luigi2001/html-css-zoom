@@ -9,7 +9,7 @@
 header{
     display: flex;
     justify-content: flex-end;
-    padding: 5px;
+    padding: 10px;
 }
 
 button{
@@ -31,5 +31,42 @@ header button i{
 
 /*fine header*/
 
+/*inizio main*/
+
+main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .utente{
+    width: calc(100% / 6 - 40px);
+    height: 150px;
+    margin: 10px;
+    position: relative;
+}
+
+.container .utente img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .utente .name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+    margin: 2px;
+}
+
+/*fine main*/
 
 
