@@ -13,6 +13,7 @@ body{
 /*inizio header*/
 
 header{
+    height: 40px;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -41,7 +42,7 @@ header button i{
 
 main{
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
     overflow: auto;
 }
 
